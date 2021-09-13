@@ -8,12 +8,53 @@
     </head>
     <title>The How To's</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+    .navbar {
+      background-color: #000;
+      color: white;
+      margin: 25px;
+      padding: 20px;
+
+    }
+
+    .navbar ul {
+      padding: 0;
+      list-style-type: none;
+      text-align: right;
+    }
+
+    .navbar li {
+      display: inline;
+    }
+
+    .navbar a {
+      color: #fefeff;
+      font-size: 18px;
+      padding-right: 15px;
+      text-decoration: none;
+    }
+    </style>
   </head>
   <body>
+
+    <nav id="navbar">
+        <div class="navbar">
+          <div class="Top-Card" style="background-image: url(San-Antonio-Skyline.jpg)"></div>
+              <div class="Bottom-Card">
+            <ul>
+                <li><a href="#AboutMe">About Me</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#ContactInformation">Contact Information</a></li>
+                <!-- <li><a href="#SocialProfiles">Social Media<a/></li> -->
+            </ul>
+        </div>
+      </nav>
+
     <header>
     <h1><a name="top">Edward Villalobos</a></h1>
     </header>
-
+    <div class="AboutMe">
 <p>
   <I>In this class we will be going over beginning html, css and hopeully some introduction into Javascript.</I> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
@@ -21,7 +62,9 @@
 <p>
   I am looking to further my knowlegde in html and css so i can become a junior web developer. Hoping to further myself and become a <mark>full stack web developer</mark>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</b>
 </P>
+</div>
 
+  <div class="Experience">
 <h4>My Web Dev Knowlegde
 <progress value="400" max="800"></progress>50% lol jk, not even close</h4>
 
@@ -30,10 +73,11 @@
   <li>css---------<meter id="disk_d" value="2" min="0" max="10"></meter>2 out of 10</li>
   <li>Javascript-<meter id="disk_e" value=".87" min="0" max="10"></meter><mark>.87</mark> out of 10</li>
 </ul>
+</div>
 
   <h4>Top 6 Favorite Movies</h4>
 Below are my favorite movies of all-time. I know some are a little romantic, as most have to do with my wifes and my first date, a movie that reminds me of my daughter and other that hit home. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  <ol>
+  <ol style="background-color:blue; color:white;">
     <li>50 First Dates</li>
     <li>The Natural</li>
     <li>Fever Pitch</li>
@@ -54,14 +98,50 @@ Below are my favorite movies of all-time. I know some are a little romantic, as 
 <h1 style="color:blue;">Image#3</h1>
 <img src="img/SA-Skyline.jpg" alt="Skyline" width="460" height="345">
 
+<p>
+  <style>
+  table, th, td {
+    border: 2px solid black;
+  }
+  th, td {
+    padding: 5px;
+    text-align: center;
+  }
+  </style>
+
+  <table style="width:50px">
+    <tr>
+      <th colspan="5">I need More Practice with Tables</th>
+    </tr>
+    <tr>
+      <td>Table 3</td>
+      <td>Hope I am doing it right</td>
+      <td>Alamo Colleges</td>
+    </tr>
+
+    <tr>
+      <td>Test</td>
+      <td>The Tables</td>
+      <td>Before Submission</td>
+
+    </tr>
+
+    <tr>
+      <td>7777777</td>
+      <td>7777777</td>
+      <td>7777777</td>
+    </tr>
 
 
+  </table>
+</p>
 
-     <footer>
+
+     <footer id="ContactInformation">
        <br>
-       &copy; 2020 Edward Villalobos Jr
+       &copy; 2021 Edward Villalobos Jr
        <br>
-       <a href="mailto:evillalobos18@student.alamo.edu">Contact Email</a>
+       <a href="contact.html">Contact Email</a>
 
      </footer>
   </body>
